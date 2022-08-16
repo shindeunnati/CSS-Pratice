@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header class="heading">
+            <h1>Registration Form</h1>
+            <p>
+                please fill out this form with required information
+            </p>
+        </header>
+        <form class="my-form">
+            <div class="info">
+                <label>Enter your First Name :</label>
+                <input type="text" name="first name">
+
+                <label>Enter your last Name :</label>
+                <input type="text" name="last name">
+
+                <label>Enter your email :</label>
+                <input type="text" name="email">
+
+                <label>Create a new Password :</label>
+                <input type="text" name="password">
+            </div>
+
+            <hr>
+
+            <div class="account">
+                <label for="PAccount">
+                    <input type="radio" name="account" id="PAccount">Personal Account
+                </label>
+                <label for="BAccount">
+                    <input type="radio" name="account" id="BAccount">Business Account
+                </label>
+                <label for="condition">
+                    <input type="checkbox" name="terms and conditions">I accept the terms and conditions
+                </label>
+
+            </div>
+            <hr>
+            <footer class="profile">
+                <p>Uplod a profile picture :</p>
+                <button>choose file</button>
+                <label for="file">
+                    <input type="text" placeholder="no file choden ">
+                </label>
+
+                <!-- <label>Uplod a profile picture :</label>
+                <select name="profile picture " id="profile picture ">
+                    <option value="#">choose file </option>
+                </select> -->
+
+                <label> Input your age(years): </label>
+                <input type="text" name="age">
+
+                <label> How did you about us?</label>
+                <!-- <input type="text" placeholder="select one"> -->
+                <select name="select one" id="select one">
+                    <option value="#">Select one</option>
+                    <option value="#">freeCodeCampNews </option>
+                    <option value="#">freeCodeCamp YouTube Channel</option>
+                    <option value="#">freeCodeCamp Fourn</option>
+                    <option value="#">others</option>
+                </select>
+                <div class="explain">
+                    <p>provide a bio:</p>
+                    <textarea name="explain" id="explain" cols="20" rows="2"
+                        placeholder="I like coding on the beach..."></textarea>
+                </div>
+
+                <div class="button">
+                    <input class="button" type="submit" value="submit">
+                    <!-- <button>submit</button> -->
+                </div>
+
+
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>

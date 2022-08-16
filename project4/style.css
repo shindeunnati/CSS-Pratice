@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(14, 14, 42);
+    color:aliceblue;
+    
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size: 50px;
+}
+.heading p{
+    font-size: 17px;
+}
+.my-form{
+    padding-bottom: 15px;
+    margin-left: 20%;
+    font-size: 17px;
+    
+}
+.my-form label{
+    display: block;
+    padding-top:5px ;
+    padding-bottom: 10px;
+}
+.info input{
+    padding: 5px; 
+     width: 70%; 
+     background-color: rgb(2, 2, 31);
+     border-color: rgb(4, 4, 46);
+    
+     /* margin-right: 0px; */
+     /* margin-left: 20px; */
+
+}
+.info{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.account{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.profile{
+    /* line-height: 1.6em; */
+}
+/* .profile p{
+    margin-bottom: 3px;
+} */
+/* .profile button{
+    display: inline;
+} */
+.profile input{
+    padding: 5px;
+    width: 70%;
+    background-color: 
+    rgb(2, 2, 32);
+    border-color: rgb(4, 4, 46);
+}
+/* .profile label{
+    margin-top: 0px;
+    margin-bottom: 0px;
+} */
+.profile select{
+    padding: 5px;
+    width: 70%;
+}
+.profile textarea{
+    display:block;
+    line-height: 1.6em;
+    /* margin-top: 5px; */
+    width: 70%;
+    background-color: rgb(2, 2, 32);
+    border-color: rgb(4, 4, 46);
+}
+.explain p{
+    margin-bottom: 6px;
+}
+.button{
+    
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 20%;
+    height:50px;
+    font-size: 20px;
+    /* background-color: rgb(40, 40, 109); */
+}
+.button input{
+    /* width:30px; */
+    background-color: rgb(49, 49, 123);
+}
